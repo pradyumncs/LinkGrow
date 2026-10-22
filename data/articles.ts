@@ -30,7 +30,7 @@ export interface Article {
 export const ARTICLES: Article[] = [
   {
     slug: "are-hidden-photos-saved-to-icloud",
-    title: "Are Hidden Photos Saved to iCloud? What Apple Doesn't Tell You",
+    title: "Are Hidden Photos Saved to iCloud? (The Real Truth)",
     description:
       "If you enable iCloud Photos, your 'Hidden' album is synced to Apple servers by default. Here is how CloudKit syncing works, where your keys reside, and how to stop cloud exposure.",
     category: "iOS Privacy",
@@ -87,7 +87,7 @@ export const ARTICLES: Article[] = [
   },
   {
     slug: "calculator-vault-apps-safety-risks",
-    title: "Why Fake Calculator Photo Vault Apps Are Dangerous in 2026",
+    title: "Calculator Photo Vault Apps: Are They Safe? (2026 Review)",
     description:
       "Calculator photo lockers promise discreet camouflage, but our forensic teardowns of top App Store calculator apps revealed unencrypted media, invasive trackers, and forensic red flags.",
     category: "Teardowns",
@@ -134,7 +134,7 @@ export const ARTICLES: Article[] = [
   },
   {
     slug: "aes-256-gcm-encryption-explained",
-    title: "AES-256-GCM vs Standard Encryption: Why Math Matters More Than Passcodes",
+    title: "AES-256-GCM Photo Vault: Why Standard Passcodes Fail",
     description:
       "A 4-digit PIN is not encryption. Discover how PBKDF2 key derivation and AES-256 Galois/Counter Mode mathematically isolate files from physical extraction tools.",
     category: "Cryptography",
@@ -185,7 +185,7 @@ export const ARTICLES: Article[] = [
   },
   {
     slug: "before-selling-trading-iphone-private-photos",
-    title: "Trading In or Selling Your iPhone? How to Ensure Private Photos Can Never Be Recovered",
+    title: "How to Delete Private Photos Before Selling iPhone",
     description:
       "NAND flash wear leveling and factory resets do not always wipe orphaned blocks immediately. Here is the exact checklist to permanently sanitize your sensitive photos before handoff.",
     category: "Device Security",
@@ -225,7 +225,7 @@ export const ARTICLES: Article[] = [
   },
   {
     slug: "apple-intelligence-photo-scanning-privacy",
-    title: "Apple Intelligence & On-Device Photo Scanning: Is Your Private Album Really Safe?",
+    title: "Can Apple Intelligence See Your Hidden Photos? (iOS 18)",
     description:
       "With iOS 18 and Apple Intelligence indexing your photo library for semantic search, object recognition, and Siri memories, can system AI models parse your locked media? We investigate.",
     category: "AI & Privacy",
@@ -275,7 +275,7 @@ export const ARTICLES: Article[] = [
 
   {
     slug: "does-carplay-show-your-photos",
-    title: "Does Apple CarPlay Show Your Hidden Photos? How to Prevent Dashboard Leaks",
+    title: "Does CarPlay Show Hidden Photos? (Stop Dashboard Leaks)",
     description:
       "Can passengers in your car see your private photos via CarPlay? Learn how iOS messaging previews, Siri suggestions, and wallpaper widgets leak photos on car screens—and how to stop it.",
     category: "iOS Privacy",
@@ -332,7 +332,7 @@ export const ARTICLES: Article[] = [
   },
   {
     slug: "does-full-access-to-photos-include-hidden",
-    title: "Does 'Full Access' to Photos Include Your Hidden Album? iOS Permissions Explained",
+    title: "Does Full Access to Photos Include the Hidden Album?",
     description:
       "When Instagram, WhatsApp, or a dating app requests 'Full Access' to your Photos, can it scan your Hidden Album? Here is how iOS 18 sandboxing and PhotoKit permissions work.",
     category: "iOS Privacy",
@@ -384,7 +384,7 @@ export const ARTICLES: Article[] = [
   },
   {
     slug: "do-hidden-photos-transfer-to-new-iphone",
-    title: "Do Hidden Photos Transfer to a New iPhone? Migration Guide & Security Risks",
+    title: "Do Hidden Photos Transfer to a New iPhone? (Full Guide)",
     description:
       "Upgrading to a new iPhone? Discover whether hidden photos transfer via Quick Start, iCloud, or iTunes backups, and avoid leaving private photos exposed on your old device.",
     category: "Device Security",
@@ -489,7 +489,7 @@ export const ARTICLES: Article[] = [
   },
   {
     slug: "best-one-time-payment-ios-photo-vault",
-    title: "Best One-Time Purchase Photo Vault for iPhone: Stop Paying Monthly Subscriptions",
+    title: "Best One-Time Purchase Photo Vault for iPhone (2026)",
     description:
       "Tired of paying $9.99/month for basic photo vault apps? Discover why subscription photo lockers are a rip-off and how to get true lifetime zero-knowledge encryption.",
     category: "Teardowns",
@@ -543,7 +543,7 @@ export const ARTICLES: Article[] = [
   },
   {
     slug: "does-deleting-vault-app-delete-photos",
-    title: "Does Deleting a Photo Vault App Delete Your Photos? What You Must Know Before Uninstalling",
+    title: "Does Deleting a Photo Vault App Delete Your Photos?",
     description:
       "Planning to delete or reinstall a photo vault app? Learn how the iOS App Sandbox works, why files vanish upon deletion, and how to safely recover your media.",
     category: "Device Security",
@@ -592,7 +592,7 @@ export const ARTICLES: Article[] = [
   },
   {
     slug: "can-hackers-access-your-cloud-photos",
-    title: "Can Hackers Access Your Cloud Photos? Realities of Cloud Leaks & How to Prevent Them",
+    title: "Can Hackers See Your iCloud Photos? (How to Prevent It)",
     description:
       "From credential stuffing to SIM swaps, how do hackers breach cloud photo backups? Discover the difference between server-side encryption and zero-knowledge privacy.",
     category: "Cryptography",
@@ -645,7 +645,7 @@ export const ARTICLES: Article[] = [
   },
   {
     slug: "delete-photos-iphone-keep-icloud",
-    title: "How to Delete Photos from iPhone but Keep Them in iCloud or an Encrypted Vault",
+    title: "How to Delete Photos from iPhone but Keep in iCloud",
     description:
       "Need to free up iPhone storage without losing your photos? Discover why deleting photos deletes them everywhere on iCloud, and how to safely store them in an encrypted vault.",
     category: "iOS Privacy",
@@ -692,7 +692,7 @@ export const ARTICLES: Article[] = [
   },
   {
     slug: "plausible-deniability-multi-vault-decoy-guide",
-    title: "Plausible Deniability in Mobile Security: Why You Need a Decoy Vault",
+    title: "Plausible Deniability Photo Vault: Why You Need a Decoy",
     description:
       "When someone forces you to unlock your phone, a locked vault is an admission of guilt. Learn how multi-vault plausible deniability and decoy PINs defeat coerced searches.",
     category: "Cryptography",
@@ -746,7 +746,7 @@ export const ARTICLES: Article[] = [
   },
   {
     slug: "can-apple-see-your-hidden-photos",
-    title: "Can Apple Employees See Your Hidden Photos? Server Architecture & Privacy Policies",
+    title: "Can Apple Employees See Your Hidden Photos? (The Truth)",
     description:
       "Can Apple technicians or engineers view photos stored in your iCloud library? We examine Apple's cloud key management, legal compliance reports, and encryption policies.",
     category: "iOS Privacy",
