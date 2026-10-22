@@ -102,7 +102,7 @@ export default function Hero() {
                       Point your iPhone camera at the code to install directly from the App Store — no account required.
                     </p>
                     <a
-                      href="sms:?body=Install LinkGrow Encrypted Vault: https://linkgrow.app"
+                      href="sms:?body=Install LinkGrow Encrypted Vault: https://linkgrow.online"
                       className="inline-block text-[11px] font-semibold text-indigo-600 hover:underline pt-0.5"
                     >
                       or text me the link &rarr;

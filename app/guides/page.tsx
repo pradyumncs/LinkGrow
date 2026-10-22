@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "LinkGrow Security Guides & Investigations",
     description: "Deep dives into mobile cryptography, iOS privacy leaks, and zero-knowledge vault engineering.",
-    url: "https://linkgrow.app/guides",
+    url: "https://linkgrow.online/guides",
     type: "website",
   },
 };

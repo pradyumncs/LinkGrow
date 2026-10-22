@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { ARTICLES } from "@/data/articles";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://linkgrow.app";
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://linkgrow.online";
   const now = new Date();
 
   // Core base pages

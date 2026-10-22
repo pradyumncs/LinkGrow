@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://linkgrow.online"),
   title: "LinkGrow | Private iPhone Photo Vault, End-to-End Encrypted",
   description:
     "Free iPhone photo vault. Encrypted on your device with AES-256-GCM, opened by a pattern you draw. No LinkGrow account. Free: 3 vaults, 100 photos, 10 videos.",
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
     title: "LinkGrow | Private iPhone Photo Vault, End-to-End Encrypted",
     description:
       "Your Hidden album isn't actually hidden. LinkGrow is. Client-side AES-256-GCM encryption with 5x5 pattern unlock and zero accounts.",
-    url: "https://linkgrow.app",
+    url: "https://linkgrow.online",
     siteName: "LinkGrow",
     locale: "en_US",
     type: "website",

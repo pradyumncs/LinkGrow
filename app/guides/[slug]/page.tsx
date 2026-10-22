@@ -47,7 +47,7 @@ export async function generateMetadata({
       type: "article",
       publishedTime: article.publishedAt,
       authors: [article.author.name],
-      url: `https://linkgrow.app/guides/${article.slug}`,
+      url: `https://linkgrow.online/guides/${article.slug}`,
     },
     twitter: {
       card: "summary_large_image",
@@ -85,12 +85,12 @@ export default async function ArticlePage({
     publisher: {
       "@type": "Organization",
       name: "LinkGrow",
-      url: "https://linkgrow.app",
+      url: "https://linkgrow.online",
     },
     datePublished: article.publishedAt,
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://linkgrow.app/guides/${article.slug}`,
+      "@id": `https://linkgrow.online/guides/${article.slug}`,
     },
   };
 
