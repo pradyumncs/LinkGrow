@@ -29,7 +29,7 @@ export default function LatestGuidesSection() {
             href="/guides"
             className="inline-flex items-center gap-1.5 text-xs font-bold text-indigo-600 hover:text-indigo-700 hover:underline shrink-0"
           >
-            <span>View all 5 guides</span>
+            <span>View all {ARTICLES.length} guides</span>
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
